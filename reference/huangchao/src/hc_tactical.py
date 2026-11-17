@@ -31,6 +31,7 @@ FACTION_STYLE = {
 
 PIL_BOLD_48 = ImageFont.truetype(r"C:\Windows\Fonts\msyhbd.ttc", 48)
 PIL_BOLD_36 = ImageFont.truetype(r"C:\Windows\Fonts\msyhbd.ttc", 36)
+PIL_BOLD_32 = ImageFont.truetype(r"C:\Windows\Fonts\msyhbd.ttc", 32)
 PIL_BOLD_28 = ImageFont.truetype(r"C:\Windows\Fonts\msyhbd.ttc", 28)
 PIL_BOLD_22 = ImageFont.truetype(r"C:\Windows\Fonts\msyhbd.ttc", 22)
 
@@ -207,16 +208,19 @@ def _draw_outlined_text(d: ImageDraw.ImageDraw, xy: Tuple[float, float], txt: st
 
 def _draw_bilibili_hud(im: Image.Image, title_parts: List[Tuple[str, str]], bottom_subtitle: str) -> None:
     d = ImageDraw.Draw(im, "RGBA")
-    d.rectangle([0, 0, W_PX, 96], fill=(12, 14, 20, 178))
-    x = 58
+    # 顶部左对齐丝滑圆角底框（不拉通右侧，彻底让出辽东湾与渤海视野）
+    widths = [d.textbbox((0, 0), txt, font=PIL_BOLD_48)[2] - d.textbbox((0, 0), txt, font=PIL_BOLD_48)[0] for txt, _ in title_parts]
+    total_tw = sum(widths) + 4 * max(0, len(widths) - 1)
+    d.rounded_rectangle([24, 12, 58 + total_tw + 38, 82], radius=12, fill=(12, 14, 20, 182), outline=(228, 178, 68, 145), width=2)
+    x = 50
     for txt, col_hex in title_parts:
         rgb = tuple(int(col_hex.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4)) + (255,)
-        _draw_outlined_text(d, (x, 48), txt, PIL_BOLD_48, rgb, anchor="lm", sw=5)
+        _draw_outlined_text(d, (x, 47), txt, PIL_BOLD_48, rgb, anchor="lm", sw=5)
         bbox = d.textbbox((0, 0), txt, font=PIL_BOLD_48)
         x += (bbox[2] - bbox[0]) + 4
     if bottom_subtitle:
-        d.rectangle([0, H_PX - 104, W_PX, H_PX], fill=(12, 14, 20, 182))
-        _draw_outlined_text(d, (W_PX // 2, H_PX - 52), bottom_subtitle, PIL_BOLD_36, (255, 255, 255, 255), anchor="mm", sw=4)
+        d.rectangle([0, H_PX - 68, W_PX, H_PX], fill=(12, 14, 20, 182))
+        _draw_outlined_text(d, (W_PX // 2, H_PX - 34), bottom_subtitle, PIL_BOLD_32, (255, 255, 255, 255), anchor="mm", sw=4)
 
 
 def _build_tactical_terrain(

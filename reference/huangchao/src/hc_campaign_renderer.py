@@ -92,7 +92,7 @@ class HuangChaoCampaignEngine:
         self.payload = json.loads(DATA_JSON.read_text(encoding="utf-8"))
         self.cities = self.payload["cities"]
         self.routes = {r["route_id"]: r for r in self.payload["routes"]}
-        self.bounds = fit_aspect_bounds(LON0, LON1, LAT0, LAT1)
+        self.bounds = fit_aspect_bounds(LON0 + 2.6, LON1 + 2.4, LAT0 - 1.4, LAT1 - 0.1, x_stretch=1.22)
 
         print("Building 1920x1080 3D relief terrain...", flush=True)
         self.relief = build_relief_terrain(self.bounds, W=W_PX, H=H_PX)
@@ -455,14 +455,14 @@ class HuangChaoCampaignEngine:
             d.rounded_rectangle([lx - tw * 0.5 - 16, ly - th * 0.5 - 8, lx + tw * 0.5 + 16, ly + th * 0.5 + 10], radius=8, fill=(14, 18, 28, 185), outline=(245, 200, 80, 210), width=2)
             _draw_outlined_text(d, (lx, ly), lbl, PIL_BOLD_28, (255, 234, 128, 255), anchor="mm", sw=3)
 
-        # 紧凑图例角标
+        # 紧凑图例角标（顺便自然收纳左下角非核心区域）
         day_cur = sp["day"]
-        d.rounded_rectangle([32, H_PX - 178, 498, H_PX - 122], radius=10, fill=(14, 16, 22, 188), outline=(180, 146, 68, 210), width=2)
-        d.rectangle([48, H_PX - 160, 70, H_PX - 140], fill=(43, 91, 132, 240), outline=(246, 194, 38, 255), width=2)
-        d.text((80, H_PX - 150), "黄巢大齐", font=PIL_BADGE, fill=(242, 244, 248, 255), anchor="lm")
-        d.rectangle([182, H_PX - 160, 204, H_PX - 140], fill=(204, 54, 48, 240), outline=(248, 244, 232, 255), width=2)
-        d.text((214, H_PX - 150), "大唐/藩镇", font=PIL_BADGE, fill=(242, 244, 248, 255), anchor="lm")
-        d.text((322, H_PX - 150), f"Day {day_cur}/3528", font=PIL_BADGE, fill=(252, 216, 98, 255), anchor="lm")
+        d.rounded_rectangle([28, H_PX - 134, 494, H_PX - 80], radius=10, fill=(14, 16, 22, 192), outline=(180, 146, 68, 210), width=2)
+        d.rectangle([44, H_PX - 117, 66, H_PX - 97], fill=(43, 91, 132, 240), outline=(246, 194, 38, 255), width=2)
+        d.text((76, H_PX - 107), "黄巢大齐", font=PIL_BADGE, fill=(242, 244, 248, 255), anchor="lm")
+        d.rectangle([178, H_PX - 117, 200, H_PX - 97], fill=(204, 54, 48, 240), outline=(248, 244, 232, 255), width=2)
+        d.text((210, H_PX - 107), "大唐/藩镇", font=PIL_BADGE, fill=(242, 244, 248, 255), anchor="lm")
+        d.text((318, H_PX - 107), f"Day {day_cur}/3528", font=PIL_BADGE, fill=(252, 216, 98, 255), anchor="lm")
 
         _draw_bilibili_hud(im, sp["title"], sp["sub"])
         return im.convert("RGB")

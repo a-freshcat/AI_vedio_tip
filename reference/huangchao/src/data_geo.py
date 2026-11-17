@@ -8,9 +8,9 @@ src/data_geo.py
 
 from typing import Dict, List, Tuple
 
-# 地理包围盒（覆盖华北、关中、中原、江淮、闽浙、岭南）
-LAT_BOUNDS: Tuple[float, float] = (21.5, 41.5)
-LON_BOUNDS: Tuple[float, float] = (103.0, 121.5)
+# 地理包围盒（覆盖华北、关中、中原、江淮、闽浙、岭南、雷州半岛、海南岛、台湾岛及辽东湾）
+LAT_BOUNDS: Tuple[float, float] = (18.0, 41.2)
+LON_BOUNDS: Tuple[float, float] = (102.0, 123.5)
 
 # 势力阵营配色与旗帜样式
 FACTIONS: Dict[str, Dict[str, str]] = {
@@ -205,4 +205,11 @@ CITIES: Dict[str, Dict] = {
         "kind": "city", "init_faction": "TANG", "coord_confidence": "high",
         "note": "长江南岸重镇，由此顺江东下至采石矶渡江",
     },
+}
+
+ISLAND_LANDMARKS: Dict[str, Dict] = {
+    "QIONGZHOU": {"name": "琼州", "modern": "海南海口琼山", "lat": 19.98, "lon": 110.35, "note": "唐岭南道琼管经略使治所"},
+    "ZHENZHOU": {"name": "振州", "modern": "海南三亚崖州", "lat": 18.38, "lon": 109.20, "note": "唐代海南岛南端州治"},
+    "LIUQIU": {"name": "流求(台湾)", "modern": "台湾台南嘉南", "lat": 23.25, "lon": 120.38, "note": "东南海疆重镇"},
+    "PENGHU": {"name": "澎湖", "modern": "台湾澎湖列岛", "lat": 23.57, "lon": 119.58, "note": "台海津要"},
 }
