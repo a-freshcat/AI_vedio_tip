@@ -1,0 +1,1812 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.35,
+     39.88
+    ]
+   },
+   "properties": {
+    "city_id": "FANYANG",
+    "name_zh": "范阳",
+    "tang_name": "幽州范阳郡",
+    "modern_location": "北京市西南",
+    "site_type": "city",
+    "importance": 5,
+    "initial_control": "YAN_AN",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.93,
+     34.27
+    ]
+   },
+   "properties": {
+    "city_id": "CHANGAN",
+    "name_zh": "长安",
+    "tang_name": "西京京兆府",
+    "modern_location": "陕西西安",
+    "site_type": "capital",
+    "importance": 5,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.44,
+     34.67
+    ]
+   },
+   "properties": {
+    "city_id": "LUOYANG",
+    "name_zh": "洛阳",
+    "tang_name": "东京河南府",
+    "modern_location": "河南洛阳",
+    "site_type": "capital",
+    "importance": 5,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.47,
+     37.7
+    ]
+   },
+   "properties": {
+    "city_id": "TAIYUAN",
+    "name_zh": "太原",
+    "tang_name": "北都太原府",
+    "modern_location": "山西太原晋源区（晋阳古城）",
+    "site_type": "capital",
+    "importance": 5,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.3,
+     34.6
+    ]
+   },
+   "properties": {
+    "city_id": "TONGGUAN",
+    "name_zh": "潼关",
+    "tang_name": "华州潼关",
+    "modern_location": "陕西潼关县港口镇",
+    "site_type": "pass",
+    "importance": 5,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.19,
+     34.78
+    ]
+   },
+   "properties": {
+    "city_id": "SHANZHOU",
+    "name_zh": "陕州",
+    "tang_name": "陕郡",
+    "modern_location": "河南三门峡陕州区",
+    "site_type": "city",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.75,
+     34.56
+    ]
+   },
+   "properties": {
+    "city_id": "LINGBAO",
+    "name_zh": "灵宝西原",
+    "tang_name": "虢州灵宝县西",
+    "modern_location": "河南灵宝市西",
+    "site_type": "battlefield",
+    "importance": 4,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.45,
+     35.45
+    ]
+   },
+   "properties": {
+    "city_id": "LINGCHANG",
+    "name_zh": "灵昌津",
+    "tang_name": "滑州灵昌县",
+    "modern_location": "河南滑县西南",
+    "site_type": "ford",
+    "importance": 3,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.52,
+     35.58
+    ]
+   },
+   "properties": {
+    "city_id": "HUAZHOU",
+    "name_zh": "滑州",
+    "tang_name": "滑州灵昌郡",
+    "modern_location": "河南滑县",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.35,
+     34.8
+    ]
+   },
+   "properties": {
+    "city_id": "BIANZHOU",
+    "name_zh": "汴州",
+    "tang_name": "陈留郡（治浚仪）",
+    "modern_location": "河南开封",
+    "site_type": "city",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.65,
+     34.75
+    ]
+   },
+   "properties": {
+    "city_id": "ZHENGZHOU",
+    "name_zh": "郑州",
+    "tang_name": "荥阳郡（治管城）",
+    "modern_location": "河南郑州",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.22,
+     34.85
+    ]
+   },
+   "properties": {
+    "city_id": "HULAO",
+    "name_zh": "虎牢关",
+    "tang_name": "郑州汜水县（武牢）",
+    "modern_location": "河南荥阳汜水镇",
+    "site_type": "pass",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.79,
+     34.87
+    ]
+   },
+   "properties": {
+    "city_id": "HEYANG",
+    "name_zh": "河阳三城",
+    "tang_name": "孟州河阳县",
+    "modern_location": "河南孟州市南黄河岸",
+    "site_type": "fortress",
+    "importance": 5,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.94,
+     35.09
+    ]
+   },
+   "properties": {
+    "city_id": "HUAIZHOU",
+    "name_zh": "怀州",
+    "tang_name": "河内郡",
+    "modern_location": "河南沁阳",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.5,
+     34.76
+    ]
+   },
+   "properties": {
+    "city_id": "MANGSHAN",
+    "name_zh": "邙山",
+    "tang_name": "洛阳北邙",
+    "modern_location": "河南洛阳北",
+    "site_type": "battlefield",
+    "importance": 3,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.58,
+     37.33
+    ]
+   },
+   "properties": {
+    "city_id": "PINGYUAN",
+    "name_zh": "平原",
+    "tang_name": "德州平原郡",
+    "modern_location": "山东德州陵城区",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.57,
+     38.15
+    ]
+   },
+   "properties": {
+    "city_id": "CHANGSHAN",
+    "name_zh": "常山",
+    "tang_name": "恒州常山郡",
+    "modern_location": "河北正定",
+    "site_type": "city",
+    "importance": 5,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.25,
+     38.08
+    ]
+   },
+   "properties": {
+    "city_id": "TUMEN",
+    "name_zh": "土门（井陉口）",
+    "tang_name": "恒州井陉土门关",
+    "modern_location": "河北鹿泉",
+    "site_type": "pass",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.78,
+     38.1
+    ]
+   },
+   "properties": {
+    "city_id": "JIUMEN",
+    "name_zh": "九门",
+    "tang_name": "恒州九门县",
+    "modern_location": "河北藁城西北",
+    "site_type": "battlefield",
+    "importance": 2,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.78,
+     38.6
+    ]
+   },
+   "properties": {
+    "city_id": "JIASHAN",
+    "name_zh": "嘉山",
+    "tang_name": "定州曲阳县东",
+    "modern_location": "河北曲阳县东",
+    "site_type": "battlefield",
+    "importance": 4,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.0,
+     38.52
+    ]
+   },
+   "properties": {
+    "city_id": "BOLING",
+    "name_zh": "博陵",
+    "tang_name": "定州博陵郡",
+    "modern_location": "河北定州",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.78,
+     37.75
+    ]
+   },
+   "properties": {
+    "city_id": "ZHAOJUN",
+    "name_zh": "赵郡",
+    "tang_name": "赵州",
+    "modern_location": "河北赵县",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.53,
+     33.0
+    ]
+   },
+   "properties": {
+    "city_id": "NANYANG",
+    "name_zh": "南阳",
+    "tang_name": "邓州南阳县",
+    "modern_location": "河南南阳",
+    "site_type": "city",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.35,
+     33.62
+    ]
+   },
+   "properties": {
+    "city_id": "ZHISHUI",
+    "name_zh": "滍水",
+    "tang_name": "汝州叶县滍水",
+    "modern_location": "河南叶县",
+    "site_type": "battlefield",
+    "importance": 2,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.14,
+     32.01
+    ]
+   },
+   "properties": {
+    "city_id": "XIANGYANG",
+    "name_zh": "襄阳",
+    "tang_name": "襄州",
+    "modern_location": "湖北襄阳",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.78,
+     34.55
+    ]
+   },
+   "properties": {
+    "city_id": "YONGQIU",
+    "name_zh": "雍丘",
+    "tang_name": "汴州雍丘县",
+    "modern_location": "河南杞县",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.31,
+     34.45
+    ]
+   },
+   "properties": {
+    "city_id": "NINGLING",
+    "name_zh": "宁陵",
+    "tang_name": "宋州宁陵县",
+    "modern_location": "河南宁陵",
+    "site_type": "city",
+    "importance": 2,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.62,
+     34.38
+    ]
+   },
+   "properties": {
+    "city_id": "SUIYANG",
+    "name_zh": "睢阳",
+    "tang_name": "宋州睢阳郡",
+    "modern_location": "河南商丘睢阳区",
+    "site_type": "city",
+    "importance": 5,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.52,
+     33.03
+    ]
+   },
+   "properties": {
+    "city_id": "LINHUAI",
+    "name_zh": "临淮",
+    "tang_name": "泗州临淮郡",
+    "modern_location": "江苏盱眙北（泗州古城）",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.18,
+     34.26
+    ]
+   },
+   "properties": {
+    "city_id": "XUZHOU",
+    "name_zh": "徐州",
+    "tang_name": "彭城郡",
+    "modern_location": "江苏徐州",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8,
+     34.36
+    ]
+   },
+   "properties": {
+    "city_id": "CHENTAOXIE",
+    "name_zh": "陈涛斜",
+    "tang_name": "咸阳县东",
+    "modern_location": "陕西咸阳东",
+    "site_type": "battlefield",
+    "importance": 3,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.39,
+     34.52
+    ]
+   },
+   "properties": {
+    "city_id": "FENGXIANG",
+    "name_zh": "凤翔",
+    "tang_name": "凤翔府（扶风郡）",
+    "modern_location": "陕西凤翔",
+    "site_type": "city",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.33,
+     38.1
+    ]
+   },
+   "properties": {
+    "city_id": "LINGWU",
+    "name_zh": "灵武",
+    "tang_name": "灵州灵武郡",
+    "modern_location": "宁夏灵武",
+    "site_type": "city",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.37,
+     34.29
+    ]
+   },
+   "properties": {
+    "city_id": "MAWEI",
+    "name_zh": "马嵬驿",
+    "tang_name": "京兆府兴平县",
+    "modern_location": "陕西兴平西",
+    "site_type": "station",
+    "importance": 3,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.06,
+     30.66
+    ]
+   },
+   "properties": {
+    "city_id": "CHENGDU",
+    "name_zh": "成都",
+    "tang_name": "蜀郡",
+    "modern_location": "四川成都",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.2,
+     34.26
+    ]
+   },
+   "properties": {
+    "city_id": "WUGONG",
+    "name_zh": "武功",
+    "tang_name": "京兆府武功县",
+    "modern_location": "陕西武功",
+    "site_type": "city",
+    "importance": 2,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.82,
+     34.28
+    ]
+   },
+   "properties": {
+    "city_id": "QINGQU",
+    "name_zh": "清渠",
+    "tang_name": "长安城西",
+    "modern_location": "陕西西安西",
+    "site_type": "battlefield",
+    "importance": 2,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.84,
+     34.21
+    ]
+   },
+   "properties": {
+    "city_id": "XIANGJI",
+    "name_zh": "香积寺",
+    "tang_name": "长安城南",
+    "modern_location": "陕西西安长安区",
+    "site_type": "temple",
+    "importance": 4,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.1,
+     34.73
+    ]
+   },
+   "properties": {
+    "city_id": "XINDIAN",
+    "name_zh": "新店",
+    "tang_name": "陕州附近",
+    "modern_location": "河南三门峡附近",
+    "site_type": "battlefield",
+    "importance": 3,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.35,
+     36.1
+    ]
+   },
+   "properties": {
+    "city_id": "XIANGZHOU",
+    "name_zh": "相州（邺城）",
+    "tang_name": "相州邺郡（治安阳）",
+    "modern_location": "河南安阳",
+    "site_type": "city",
+    "importance": 5,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.28,
+     36.03
+    ]
+   },
+   "properties": {
+    "city_id": "CHOUSIGANG",
+    "name_zh": "愁思冈",
+    "tang_name": "相州安阳县西南",
+    "modern_location": "河南安阳西南",
+    "site_type": "battlefield",
+    "importance": 2,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.15,
+     36.28
+    ]
+   },
+   "properties": {
+    "city_id": "WEIZHOU_DM",
+    "name_zh": "魏州",
+    "tang_name": "魏州魏郡",
+    "modern_location": "河北大名",
+    "site_type": "city",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.07,
+     35.4
+    ]
+   },
+   "properties": {
+    "city_id": "WEIZHOU_WH",
+    "name_zh": "卫州",
+    "tang_name": "卫州汲郡",
+    "modern_location": "河南卫辉",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.22,
+     35.36
+    ]
+   },
+   "properties": {
+    "city_id": "WENXI",
+    "name_zh": "闻喜",
+    "tang_name": "绛州闻喜县",
+    "modern_location": "山西闻喜",
+    "site_type": "city",
+    "importance": 2,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.55,
+     34.75
+    ]
+   },
+   "properties": {
+    "city_id": "LIUQUAN",
+    "name_zh": "柳泉驿",
+    "tang_name": "陕州—渑池间",
+    "modern_location": "河南渑池以西（位置存疑）",
+    "site_type": "station",
+    "importance": 2,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.46,
+     34.72
+    ]
+   },
+   "properties": {
+    "city_id": "ZHAOJUE",
+    "name_zh": "昭觉寺",
+    "tang_name": "洛阳北郊",
+    "modern_location": "河南洛阳北郊（位置存疑）",
+    "site_type": "temple",
+    "importance": 3,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.67,
+     37.05
+    ]
+   },
+   "properties": {
+    "city_id": "BEIZHOU",
+    "name_zh": "贝州",
+    "tang_name": "清河郡",
+    "modern_location": "河北清河",
+    "site_type": "city",
+    "importance": 3,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.68,
+     37.93
+    ]
+   },
+   "properties": {
+    "city_id": "XIABO",
+    "name_zh": "下博",
+    "tang_name": "深州下博县",
+    "modern_location": "河北深州东南",
+    "site_type": "battlefield",
+    "importance": 3,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.13,
+     38.82
+    ]
+   },
+   "properties": {
+    "city_id": "MOZHOU",
+    "name_zh": "莫州",
+    "tang_name": "莫州文安郡",
+    "modern_location": "河北任丘北莫州镇",
+    "site_type": "city",
+    "importance": 4,
+    "initial_control": "TANG",
+    "control_tracked": true,
+    "coord_confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.85,
+     39.95
+    ]
+   },
+   "properties": {
+    "city_id": "WENQUANZHA",
+    "name_zh": "温泉栅",
+    "tang_name": "范阳以东",
+    "modern_location": "河北卢龙一带（位置存疑）",
+    "site_type": "battlefield",
+    "importance": 2,
+    "initial_control": "",
+    "control_tracked": false,
+    "coord_confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.93,
+      34.27
+     ],
+     [
+      110.3,
+      34.6
+     ],
+     [
+      110.75,
+      34.56
+     ],
+     [
+      111.19,
+      34.78
+     ],
+     [
+      111.1,
+      34.73
+     ],
+     [
+      112.44,
+      34.67
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R01",
+    "name_zh": "崤函通道",
+    "route_type": "road",
+    "note": "东西大动脉，两京生命线"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      112.44,
+      34.67
+     ],
+     [
+      112.5,
+      34.76
+     ],
+     [
+      112.79,
+      34.87
+     ],
+     [
+      112.94,
+      35.09
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R02",
+    "name_zh": "河阳—怀州道",
+    "route_type": "road",
+    "note": "洛阳北渡黄河要道"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      112.47,
+      37.7
+     ],
+     [
+      114.25,
+      38.08
+     ],
+     [
+      114.57,
+      38.15
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R03",
+    "name_zh": "井陉道",
+    "route_type": "pass_road",
+    "note": "太行八陉之一，唐军出击河北的通道"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      112.44,
+      34.67
+     ],
+     [
+      113.22,
+      34.85
+     ],
+     [
+      113.65,
+      34.75
+     ],
+     [
+      114.35,
+      34.8
+     ],
+     [
+      114.78,
+      34.55
+     ],
+     [
+      115.31,
+      34.45
+     ],
+     [
+      115.62,
+      34.38
+     ],
+     [
+      117.18,
+      34.26
+     ],
+     [
+      118.52,
+      33.03
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R04",
+    "name_zh": "通济渠（汴河）漕运线",
+    "route_type": "canal",
+    "note": "江淮财赋入京生命线（徐州为近似陆路连接）"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.35,
+      39.88
+     ],
+     [
+      115.0,
+      38.52
+     ],
+     [
+      114.57,
+      38.15
+     ],
+     [
+      114.78,
+      37.75
+     ],
+     [
+      114.35,
+      36.1
+     ],
+     [
+      114.07,
+      35.4
+     ],
+     [
+      114.45,
+      35.45
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R05",
+    "name_zh": "河北太行东麓驿道",
+    "route_type": "road",
+    "note": "安禄山南下主轴"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.35,
+      39.88
+     ],
+     [
+      116.13,
+      38.82
+     ],
+     [
+      115.68,
+      37.93
+     ],
+     [
+      115.67,
+      37.05
+     ],
+     [
+      115.15,
+      36.28
+     ],
+     [
+      114.52,
+      35.58
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R06",
+    "name_zh": "河北东路",
+    "route_type": "road",
+    "note": "762年唐军北追路线"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.33,
+      38.1
+     ],
+     [
+      107.39,
+      34.52
+     ],
+     [
+      108.2,
+      34.26
+     ],
+     [
+      108.93,
+      34.27
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R07",
+    "name_zh": "灵武—凤翔—长安道",
+    "route_type": "road",
+    "note": "肃宗行在与反攻出发线（示意）"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.93,
+      34.27
+     ],
+     [
+      108.37,
+      34.29
+     ],
+     [
+      104.06,
+      30.66
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R08",
+    "name_zh": "入蜀道",
+    "route_type": "road",
+    "note": "玄宗幸蜀路线（示意，未绘出秦岭栈道细节）"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      112.44,
+      34.67
+     ],
+     [
+      113.35,
+      33.62
+     ],
+     [
+      112.53,
+      33.0
+     ],
+     [
+      112.14,
+      32.01
+     ]
+    ]
+   },
+   "properties": {
+    "route_id": "R09",
+    "name_zh": "宛洛—汉水道",
+    "route_type": "road",
+    "note": "叛军南下江汉企图的路线"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      110.3,
+      34.8
+     ],
+     [
+      111.2,
+      34.75
+     ],
+     [
+      112.1,
+      34.88
+     ],
+     [
+      112.79,
+      34.86
+     ],
+     [
+      113.4,
+      34.92
+     ],
+     [
+      114.0,
+      35.15
+     ],
+     [
+      114.5,
+      35.5
+     ],
+     [
+      114.95,
+      35.9
+     ],
+     [
+      115.4,
+      36.3
+     ],
+     [
+      115.9,
+      36.9
+     ],
+     [
+      116.4,
+      37.45
+     ],
+     [
+      116.85,
+      37.95
+     ],
+     [
+      117.3,
+      38.35
+     ],
+     [
+      117.7,
+      38.5
+     ]
+    ]
+   },
+   "properties": {
+    "river_id": "HUANGHE_TANG",
+    "name_zh": "唐代黄河（示意）",
+    "confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.35,
+     39.88
+    ]
+   },
+   "properties": {
+    "battle_id": "B01",
+    "name_zh": "范阳起兵与河北瓦解",
+    "start": "0755-12-16",
+    "end": "0756-01-05",
+    "winner": "YAN_AN",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.35,
+     34.8
+    ]
+   },
+   "properties": {
+    "battle_id": "B02",
+    "name_zh": "灵昌渡河与陈留、荥阳之战",
+    "start": "0756-01-07",
+    "end": "0756-01-16",
+    "winner": "YAN_AN",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.44,
+     34.67
+    ]
+   },
+   "properties": {
+    "battle_id": "B03",
+    "name_zh": "东京洛阳保卫战",
+    "start": "0756-01-16",
+    "end": "0756-01-18",
+    "winner": "YAN_AN",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.57,
+     38.15
+    ]
+   },
+   "properties": {
+    "battle_id": "B04",
+    "name_zh": "常山起义与常山保卫战",
+    "start": "0756-01-27",
+    "end": "0756-02-12",
+    "winner": "YAN_AN",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.78,
+     38.6
+    ]
+   },
+   "properties": {
+    "battle_id": "B05",
+    "name_zh": "九门、赵郡与嘉山之战",
+    "start": "0756-03-20",
+    "end": "0756-06-15",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.75,
+     34.56
+    ]
+   },
+   "properties": {
+    "battle_id": "B06",
+    "name_zh": "灵宝西原—潼关之战",
+    "start": "0756-07-08",
+    "end": "0756-07-10",
+    "winner": "YAN_AN",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.53,
+     33.0
+    ]
+   },
+   "properties": {
+    "battle_id": "B07",
+    "name_zh": "南阳保卫战",
+    "start": "0756-06-05",
+    "end": "0757-06-10",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.78,
+     34.55
+    ]
+   },
+   "properties": {
+    "battle_id": "B08",
+    "name_zh": "雍丘—宁陵保卫战",
+    "start": "0756-03-15",
+    "end": "0757-01-15",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8,
+     34.36
+    ]
+   },
+   "properties": {
+    "battle_id": "B09",
+    "name_zh": "陈涛斜之战",
+    "start": "0756-11-17",
+    "end": "0756-11-19",
+    "winner": "YAN_AN",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.47,
+     37.7
+    ]
+   },
+   "properties": {
+    "battle_id": "B10",
+    "name_zh": "太原保卫战",
+    "start": "0757-02-01",
+    "end": "0757-03-10",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.62,
+     34.38
+    ]
+   },
+   "properties": {
+    "battle_id": "B11",
+    "name_zh": "睢阳保卫战",
+    "start": "0757-02-10",
+    "end": "0757-11-24",
+    "winner": "YAN_AN",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.82,
+     34.28
+    ]
+   },
+   "properties": {
+    "battle_id": "B12",
+    "name_zh": "清渠之战",
+    "start": "0757-06-06",
+    "end": "0757-06-06",
+    "winner": "YAN_AN",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.84,
+     34.21
+    ]
+   },
+   "properties": {
+    "battle_id": "B13",
+    "name_zh": "香积寺之战",
+    "start": "0757-11-13",
+    "end": "0757-11-13",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.1,
+     34.73
+    ]
+   },
+   "properties": {
+    "battle_id": "B14",
+    "name_zh": "新店之战",
+    "start": "0757-11-30",
+    "end": "0757-12-03",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.35,
+     36.1
+    ]
+   },
+   "properties": {
+    "battle_id": "B15",
+    "name_zh": "邺城（相州）之战",
+    "start": "0758-11-10",
+    "end": "0759-04-07",
+    "winner": "YAN_SHI",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.79,
+     34.87
+    ]
+   },
+   "properties": {
+    "battle_id": "B16",
+    "name_zh": "河阳保卫战",
+    "start": "0759-10-20",
+    "end": "0759-11-15",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.5,
+     34.76
+    ]
+   },
+   "properties": {
+    "battle_id": "B17",
+    "name_zh": "邙山之战",
+    "start": "0761-03-15",
+    "end": "0761-03-15",
+    "winner": "YAN_SHI",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.62,
+     34.38
+    ]
+   },
+   "properties": {
+    "battle_id": "B18",
+    "name_zh": "宋州—江淮外围作战",
+    "start": "0761-06-15",
+    "end": "0762-05-15",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.46,
+     34.72
+    ]
+   },
+   "properties": {
+    "battle_id": "B19",
+    "name_zh": "洛阳昭觉寺之战",
+    "start": "0762-11-19",
+    "end": "0762-11-20",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.68,
+     37.93
+    ]
+   },
+   "properties": {
+    "battle_id": "B20",
+    "name_zh": "河北追击战（卫州、下博）",
+    "start": "0762-11-25",
+    "end": "0762-12-25",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.13,
+     38.82
+    ]
+   },
+   "properties": {
+    "battle_id": "B21",
+    "name_zh": "莫州围城与温泉栅终局",
+    "start": "0763-01-05",
+    "end": "0763-02-17",
+    "winner": "TANG",
+    "layer": "battle"
+   }
+  }
+ ]
+}

@@ -1,0 +1,762 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CHANGAN",
+        "name": "长安",
+        "kind": "capital",
+        "note": "大唐西京 / 大齐都城，渭水南岸平原"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.95,
+          34.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "QUJIANG",
+        "name": "曲江池",
+        "kind": "camp",
+        "note": "874年黄巢落第赋菊《不第后赋菊》个人起点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.99,
+          34.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TONGGUAN",
+        "name": "潼关",
+        "kind": "pass",
+        "note": "黄河拐弯南岸台地，关中东大门"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.29,
+          34.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TONGZHOU",
+        "name": "同州",
+        "kind": "city",
+        "note": "渭北重镇，882年朱温据同州叛齐降唐"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.94,
+          34.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LIANGTIANPO",
+        "name": "梁田坡",
+        "kind": "camp",
+        "note": "883年李克用沙陀鸦儿军大败齐军决战地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.62,
+          34.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TAIYUAN",
+        "name": "太原",
+        "kind": "capital",
+        "note": "河东节度使治所，汾水西岸"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.53,
+          37.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LUOYANG",
+        "name": "洛阳",
+        "kind": "capital",
+        "note": "大唐东都，洛水北岸"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.45,
+          34.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "YUANQU",
+        "name": "冤句(曹州)",
+        "kind": "camp",
+        "note": "875年黄巢散家财聚众起兵之地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.38,
+          35.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CHANGYUAN",
+        "name": "长垣(匡城)",
+        "kind": "camp",
+        "note": "王仙芝率先起兵响应点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.67,
+          35.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BIAN",
+        "name": "汴州",
+        "kind": "city",
+        "note": "宣武军治所，大运河与黄河枢纽"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31,
+          34.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "WANGMANDU",
+        "name": "王满渡",
+        "kind": "ferry",
+        "note": "884年5月黄巢主力被李克用半渡而击溃败处"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03,
+          34.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CHENZHOU",
+        "name": "陈州",
+        "kind": "city",
+        "note": "883-884年黄巢围攻近三百日未克之坚城"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.88,
+          33.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CAIZHOU",
+        "name": "蔡州",
+        "kind": "city",
+        "note": "秦宗权据守并与黄巢合流处"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36,
+          33.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LANGHUGU",
+        "name": "狼虎谷",
+        "kind": "camp",
+        "note": "884年7月黄巢英雄末路自刎陨落处"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.52,
+          36.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "QIZHOU",
+        "name": "蕲州",
+        "kind": "city",
+        "note": "876年底王仙芝欲受唐招安、黄巢怒而分军之地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.43,
+          30.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HUANGMEI",
+        "name": "黄梅",
+        "kind": "camp",
+        "note": "878年初王仙芝战死，黄巢接掌全军号冲天大将军"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.93,
+          30.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "YANGZHOU",
+        "name": "扬州",
+        "kind": "city",
+        "note": "淮南节度使高骈驻地，长江北岸"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.42,
+          32.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CAISHI_FERRY",
+        "name": "采石矶渡口",
+        "kind": "ferry",
+        "note": "长江天堑核心渡江节点（南北往返必经渡口）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.47,
+          31.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "XUANZHOU",
+        "name": "宣州",
+        "kind": "city",
+        "note": "江南转战重镇，在此折向浙东入闽"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.76,
+          30.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SANJIANGKOU",
+        "name": "三江口渡口",
+        "kind": "ferry",
+        "note": "880年北伐渡过淮河之关键津渡"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.18,
+          32.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "QUZHOU",
+        "name": "衢州",
+        "kind": "city",
+        "note": "浙西入闽咽喉，仙霞岭北麓"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.87,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "XIANXIA_PASS",
+        "name": "仙霞岭古道",
+        "kind": "pass",
+        "note": "黄巢“刊山开道七百里”破天险入福建之壮举"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.52,
+          28.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "JIANZHOU",
+        "name": "建州",
+        "kind": "city",
+        "note": "闽北重镇，沿建溪南下福州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.32,
+          27.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "FUZHOU",
+        "name": "福州",
+        "kind": "city",
+        "note": "878年12月攻克，闽江北岸陆地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3,
+          26.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CHAOZHOU",
+        "name": "潮州",
+        "kind": "city",
+        "note": "粤东门户，韩江西岸"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.63,
+          23.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GUANGZHOU",
+        "name": "广州",
+        "kind": "city",
+        "note": "879年9月攻克南海重镇，珠江北岸陆地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.26,
+          23.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GUIZHOU",
+        "name": "桂州",
+        "kind": "city",
+        "note": "879年10月北伐起点，漓江西岸"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.29,
+          25.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LINGQU_PASS",
+        "name": "灵渠古运河",
+        "kind": "pass",
+        "note": "连通珠江与长江水系的千年古渠，编大筏顺湘江北下"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.67,
+          25.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TANZHOU",
+        "name": "潭州(长沙)",
+        "kind": "city",
+        "note": "879年11月一日攻破湖南重镇，湘江东岸"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.98,
+          28.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "JIANGLING",
+        "name": "江陵(荆南)",
+        "kind": "city",
+        "note": "长江北岸中游重镇，五十万大军在此受挫后东向"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.19,
+          30.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "EZHOU",
+        "name": "鄂州",
+        "kind": "city",
+        "note": "长江南岸重镇，由此顺江东下至采石矶渡江"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31,
+          30.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R01_SHANDONG_TO_HUAI",
+        "name": "第一阶段：冤句起兵与淮西分军",
+        "distance_km": 720.8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.38,
+            35.15
+          ],
+          [
+            114.67,
+            35.2
+          ],
+          [
+            114.31,
+            34.8
+          ],
+          [
+            114.88,
+            33.73
+          ],
+          [
+            114.36,
+            33.01
+          ],
+          [
+            115.1,
+            31.5
+          ],
+          [
+            115.43,
+            30.23
+          ],
+          [
+            115.93,
+            30.08
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R02_DETOUR_TO_LINGNAN",
+        "name": "第二阶段：避实击虚 · 刊山开道万里南下",
+        "distance_km": 1716.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.93,
+            30.08
+          ],
+          [
+            117.6,
+            30.9
+          ],
+          [
+            118.47,
+            31.66
+          ],
+          [
+            118.76,
+            30.95
+          ],
+          [
+            119.0,
+            29.8
+          ],
+          [
+            118.87,
+            28.94
+          ],
+          [
+            118.52,
+            28.36
+          ],
+          [
+            118.32,
+            27.04
+          ],
+          [
+            119.3,
+            26.08
+          ],
+          [
+            118.5,
+            24.9
+          ],
+          [
+            116.63,
+            23.66
+          ],
+          [
+            114.8,
+            23.25
+          ],
+          [
+            113.26,
+            23.14
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R03_NORTHERN_EXPEDITION",
+        "name": "第三阶段：湘桂水陆并进 · 北伐中原",
+        "distance_km": 1908.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.14
+          ],
+          [
+            111.5,
+            24.1
+          ],
+          [
+            110.29,
+            25.27
+          ],
+          [
+            110.67,
+            25.61
+          ],
+          [
+            112.6,
+            26.9
+          ],
+          [
+            112.98,
+            28.23
+          ],
+          [
+            113.1,
+            29.4
+          ],
+          [
+            112.19,
+            30.35
+          ],
+          [
+            114.31,
+            30.55
+          ],
+          [
+            118.47,
+            31.66
+          ],
+          [
+            117.8,
+            32.3
+          ],
+          [
+            117.18,
+            32.95
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R04_CAPTURE_TWO_CAPITALS",
+        "name": "第四阶段：饮马黄河 · 破潼关入长安称帝",
+        "distance_km": 857.9
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.18,
+            32.95
+          ],
+          [
+            114.88,
+            33.73
+          ],
+          [
+            114.31,
+            34.8
+          ],
+          [
+            112.45,
+            34.67
+          ],
+          [
+            111.2,
+            34.6
+          ],
+          [
+            110.29,
+            34.54
+          ],
+          [
+            109.62,
+            34.51
+          ],
+          [
+            108.95,
+            34.27
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R05_RETREAT_TO_LANGHUGU",
+        "name": "第五阶段：撤出关中 · 陈州苦战与狼虎谷终局",
+        "distance_km": 1071.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.95,
+            34.27
+          ],
+          [
+            109.62,
+            34.51
+          ],
+          [
+            110.29,
+            34.54
+          ],
+          [
+            112.45,
+            34.67
+          ],
+          [
+            114.88,
+            33.73
+          ],
+          [
+            114.03,
+            34.86
+          ],
+          [
+            115.38,
+            35.15
+          ],
+          [
+            117.52,
+            36.15
+          ]
+        ]
+      }
+    }
+  ]
+}

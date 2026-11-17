@@ -1,0 +1,2216 @@
+{
+  "project": "唐末黄巢起义 (874-884)",
+  "span_days": 3528,
+  "city_count": 31,
+  "route_count": 5,
+  "total_march_km": 6275.0,
+  "event_count": 16,
+  "capture_count": 66,
+  "factions": {
+    "TANG": {
+      "name": "大唐朝廷/藩镇",
+      "short_name": "唐",
+      "color": "#C83E37",
+      "border_color": "#7A1C18",
+      "flag_style": "tang_crimson"
+    },
+    "QI": {
+      "name": "黄巢义军/大齐",
+      "short_name": "齐",
+      "color": "#2B5B84",
+      "accent_color": "#F6C226",
+      "border_color": "#16324A",
+      "flag_style": "qi_gold_flame"
+    },
+    "SHATUO": {
+      "name": "沙陀鸦儿军",
+      "short_name": "沙陀",
+      "color": "#2A2D34",
+      "border_color": "#111317",
+      "flag_style": "black_crow"
+    }
+  },
+  "cities": {
+    "CHANGAN": {
+      "name": "长安",
+      "modern": "陕西西安",
+      "lat": 34.27,
+      "lon": 108.95,
+      "kind": "capital",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "大唐西京 / 大齐都城，渭水南岸平原"
+    },
+    "QUJIANG": {
+      "name": "曲江池",
+      "modern": "西安东南",
+      "lat": 34.21,
+      "lon": 108.99,
+      "kind": "camp",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "874年黄巢落第赋菊《不第后赋菊》个人起点"
+    },
+    "TONGGUAN": {
+      "name": "潼关",
+      "modern": "陕西潼关",
+      "lat": 34.54,
+      "lon": 110.29,
+      "kind": "pass",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "黄河拐弯南岸台地，关中东大门"
+    },
+    "TONGZHOU": {
+      "name": "同州",
+      "modern": "陕西大荔",
+      "lat": 34.8,
+      "lon": 109.94,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "渭北重镇，882年朱温据同州叛齐降唐"
+    },
+    "LIANGTIANPO": {
+      "name": "梁田坡",
+      "modern": "陕西渭南东",
+      "lat": 34.51,
+      "lon": 109.62,
+      "kind": "camp",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "883年李克用沙陀鸦儿军大败齐军决战地"
+    },
+    "TAIYUAN": {
+      "name": "太原",
+      "modern": "山西太原",
+      "lat": 37.87,
+      "lon": 112.53,
+      "kind": "capital",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "河东节度使治所，汾水西岸"
+    },
+    "LUOYANG": {
+      "name": "洛阳",
+      "modern": "河南洛阳",
+      "lat": 34.67,
+      "lon": 112.45,
+      "kind": "capital",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "大唐东都，洛水北岸"
+    },
+    "YUANQU": {
+      "name": "冤句(曹州)",
+      "modern": "山东菏泽西南",
+      "lat": 35.15,
+      "lon": 115.38,
+      "kind": "camp",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "875年黄巢散家财聚众起兵之地"
+    },
+    "CHANGYUAN": {
+      "name": "长垣(匡城)",
+      "modern": "河南长垣",
+      "lat": 35.2,
+      "lon": 114.67,
+      "kind": "camp",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "王仙芝率先起兵响应点"
+    },
+    "BIAN": {
+      "name": "汴州",
+      "modern": "河南开封",
+      "lat": 34.8,
+      "lon": 114.31,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "宣武军治所，大运河与黄河枢纽"
+    },
+    "WANGMANDU": {
+      "name": "王满渡",
+      "modern": "河南中牟北",
+      "lat": 34.86,
+      "lon": 114.03,
+      "kind": "ferry",
+      "init_faction": "TANG",
+      "coord_confidence": "medium",
+      "note": "884年5月黄巢主力被李克用半渡而击溃败处"
+    },
+    "CHENZHOU": {
+      "name": "陈州",
+      "modern": "河南淮阳",
+      "lat": 33.73,
+      "lon": 114.88,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "883-884年黄巢围攻近三百日未克之坚城"
+    },
+    "CAIZHOU": {
+      "name": "蔡州",
+      "modern": "河南汝南",
+      "lat": 33.01,
+      "lon": 114.36,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "秦宗权据守并与黄巢合流处"
+    },
+    "LANGHUGU": {
+      "name": "狼虎谷",
+      "modern": "山东莱芜西南",
+      "lat": 36.15,
+      "lon": 117.52,
+      "kind": "camp",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "884年7月黄巢英雄末路自刎陨落处"
+    },
+    "QIZHOU": {
+      "name": "蕲州",
+      "modern": "湖北蕲春",
+      "lat": 30.23,
+      "lon": 115.43,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "876年底王仙芝欲受唐招安、黄巢怒而分军之地"
+    },
+    "HUANGMEI": {
+      "name": "黄梅",
+      "modern": "湖北黄梅",
+      "lat": 30.08,
+      "lon": 115.93,
+      "kind": "camp",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "878年初王仙芝战死，黄巢接掌全军号冲天大将军"
+    },
+    "YANGZHOU": {
+      "name": "扬州",
+      "modern": "江苏扬州",
+      "lat": 32.39,
+      "lon": 119.42,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "淮南节度使高骈驻地，长江北岸"
+    },
+    "CAISHI_FERRY": {
+      "name": "采石矶渡口",
+      "modern": "安徽马鞍山",
+      "lat": 31.66,
+      "lon": 118.47,
+      "kind": "ferry",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "长江天堑核心渡江节点（南北往返必经渡口）"
+    },
+    "XUANZHOU": {
+      "name": "宣州",
+      "modern": "安徽宣城",
+      "lat": 30.95,
+      "lon": 118.76,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "江南转战重镇，在此折向浙东入闽"
+    },
+    "SANJIANGKOU": {
+      "name": "三江口渡口",
+      "modern": "安徽怀远淮河岸",
+      "lat": 32.95,
+      "lon": 117.18,
+      "kind": "ferry",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "880年北伐渡过淮河之关键津渡"
+    },
+    "QUZHOU": {
+      "name": "衢州",
+      "modern": "浙江衢州",
+      "lat": 28.94,
+      "lon": 118.87,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "浙西入闽咽喉，仙霞岭北麓"
+    },
+    "XIANXIA_PASS": {
+      "name": "仙霞岭古道",
+      "modern": "浙闽交界江山浦城间",
+      "lat": 28.36,
+      "lon": 118.52,
+      "kind": "pass",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "黄巢“刊山开道七百里”破天险入福建之壮举"
+    },
+    "JIANZHOU": {
+      "name": "建州",
+      "modern": "福建建瓯",
+      "lat": 27.04,
+      "lon": 118.32,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "闽北重镇，沿建溪南下福州"
+    },
+    "FUZHOU": {
+      "name": "福州",
+      "modern": "福建福州",
+      "lat": 26.08,
+      "lon": 119.3,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "878年12月攻克，闽江北岸陆地"
+    },
+    "CHAOZHOU": {
+      "name": "潮州",
+      "modern": "广东潮州",
+      "lat": 23.66,
+      "lon": 116.63,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "粤东门户，韩江西岸"
+    },
+    "GUANGZHOU": {
+      "name": "广州",
+      "modern": "广东广州",
+      "lat": 23.14,
+      "lon": 113.26,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "879年9月攻克南海重镇，珠江北岸陆地"
+    },
+    "GUIZHOU": {
+      "name": "桂州",
+      "modern": "广西桂林",
+      "lat": 25.27,
+      "lon": 110.29,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "879年10月北伐起点，漓江西岸"
+    },
+    "LINGQU_PASS": {
+      "name": "灵渠古运河",
+      "modern": "广西兴安",
+      "lat": 25.61,
+      "lon": 110.67,
+      "kind": "pass",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "连通珠江与长江水系的千年古渠，编大筏顺湘江北下"
+    },
+    "TANZHOU": {
+      "name": "潭州(长沙)",
+      "modern": "湖南长沙",
+      "lat": 28.23,
+      "lon": 112.98,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "879年11月一日攻破湖南重镇，湘江东岸"
+    },
+    "JIANGLING": {
+      "name": "江陵(荆南)",
+      "modern": "湖北荆州",
+      "lat": 30.35,
+      "lon": 112.19,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "长江北岸中游重镇，五十万大军在此受挫后东向"
+    },
+    "EZHOU": {
+      "name": "鄂州",
+      "modern": "湖北武昌",
+      "lat": 30.55,
+      "lon": 114.31,
+      "kind": "city",
+      "init_faction": "TANG",
+      "coord_confidence": "high",
+      "note": "长江南岸重镇，由此顺江东下至采石矶渡江"
+    }
+  },
+  "routes": [
+    {
+      "route_id": "R01_SHANDONG_TO_HUAI",
+      "name": "第一阶段：冤句起兵与淮西分军",
+      "date_range": [
+        "0875-06-10",
+        "0878-02-18"
+      ],
+      "stage_key": "S2_REBEL",
+      "color": "#D9383A",
+      "style": "dashed_rebel",
+      "summary": "曹州冤句起兵，转战豫皖鄂；蕲州怒斥王仙芝受招安而分军，黄梅战后接掌全军号冲天大将军。",
+      "city_sequence": [
+        "YUANQU",
+        "CHANGYUAN",
+        "BIAN",
+        "CHENZHOU",
+        "CAIZHOU",
+        "QIZHOU",
+        "HUANGMEI"
+      ],
+      "crossings": [],
+      "waypoints": [
+        [
+          35.15,
+          115.38
+        ],
+        [
+          35.2,
+          114.67
+        ],
+        [
+          34.8,
+          114.31
+        ],
+        [
+          33.73,
+          114.88
+        ],
+        [
+          33.01,
+          114.36
+        ],
+        [
+          31.5,
+          115.1
+        ],
+        [
+          30.23,
+          115.43
+        ],
+        [
+          30.08,
+          115.93
+        ]
+      ],
+      "distance_km": 720.8
+    },
+    {
+      "route_id": "R02_DETOUR_TO_LINGNAN",
+      "name": "第二阶段：避实击虚 · 刊山开道万里南下",
+      "date_range": [
+        "0878-03-01",
+        "0879-09-22"
+      ],
+      "stage_key": "S3_CHONGTIAN",
+      "color": "#E67E22",
+      "style": "solid_detour",
+      "summary": "采石矶南渡长江，经宣州、衢州，刊山开道七百里越仙霞岭入闽克福州，长驱直下攻破广州。",
+      "city_sequence": [
+        "HUANGMEI",
+        "CAISHI_FERRY",
+        "XUANZHOU",
+        "QUZHOU",
+        "XIANXIA_PASS",
+        "JIANZHOU",
+        "FUZHOU",
+        "CHAOZHOU",
+        "GUANGZHOU"
+      ],
+      "crossings": [
+        {
+          "river": "长江",
+          "node": "CAISHI_FERRY",
+          "coord": [
+            31.66,
+            118.47
+          ],
+          "method": "渡江舟师"
+        },
+        {
+          "river": "仙霞山脉",
+          "node": "XIANXIA_PASS",
+          "coord": [
+            28.36,
+            118.52
+          ],
+          "method": "刊山开道七百里"
+        }
+      ],
+      "waypoints": [
+        [
+          30.08,
+          115.93
+        ],
+        [
+          30.9,
+          117.6
+        ],
+        [
+          31.66,
+          118.47
+        ],
+        [
+          30.95,
+          118.76
+        ],
+        [
+          29.8,
+          119.0
+        ],
+        [
+          28.94,
+          118.87
+        ],
+        [
+          28.36,
+          118.52
+        ],
+        [
+          27.04,
+          118.32
+        ],
+        [
+          26.08,
+          119.3
+        ],
+        [
+          24.9,
+          118.5
+        ],
+        [
+          23.66,
+          116.63
+        ],
+        [
+          23.25,
+          114.8
+        ],
+        [
+          23.14,
+          113.26
+        ]
+      ],
+      "distance_km": 1716.3
+    },
+    {
+      "route_id": "R03_NORTHERN_EXPEDITION",
+      "name": "第三阶段：湘桂水陆并进 · 北伐中原",
+      "date_range": [
+        "0879-10-25",
+        "0880-07-15"
+      ],
+      "stage_key": "S3_CHONGTIAN",
+      "color": "#2B5B84",
+      "style": "bold_offensive",
+      "summary": "因岭南疫病果断北伐，经桂州、灵渠编筏顺湘江破潭州，东下鄂州再由采石矶北渡长江、三江口渡淮。",
+      "city_sequence": [
+        "GUANGZHOU",
+        "GUIZHOU",
+        "LINGQU_PASS",
+        "TANZHOU",
+        "JIANGLING",
+        "EZHOU",
+        "CAISHI_FERRY",
+        "SANJIANGKOU"
+      ],
+      "crossings": [
+        {
+          "river": "湘桂分水岭",
+          "node": "LINGQU_PASS",
+          "coord": [
+            25.61,
+            110.67
+          ],
+          "method": "灵渠编筏顺流"
+        },
+        {
+          "river": "长江",
+          "node": "CAISHI_FERRY",
+          "coord": [
+            31.66,
+            118.47
+          ],
+          "method": "北渡长江"
+        },
+        {
+          "river": "淮河",
+          "node": "SANJIANGKOU",
+          "coord": [
+            32.95,
+            117.18
+          ],
+          "method": "渡淮入中原"
+        }
+      ],
+      "waypoints": [
+        [
+          23.14,
+          113.26
+        ],
+        [
+          24.1,
+          111.5
+        ],
+        [
+          25.27,
+          110.29
+        ],
+        [
+          25.61,
+          110.67
+        ],
+        [
+          26.9,
+          112.6
+        ],
+        [
+          28.23,
+          112.98
+        ],
+        [
+          29.4,
+          113.1
+        ],
+        [
+          30.35,
+          112.19
+        ],
+        [
+          30.55,
+          114.31
+        ],
+        [
+          31.66,
+          118.47
+        ],
+        [
+          32.3,
+          117.8
+        ],
+        [
+          32.95,
+          117.18
+        ]
+      ],
+      "distance_km": 1908.6
+    },
+    {
+      "route_id": "R04_CAPTURE_TWO_CAPITALS",
+      "name": "第四阶段：饮马黄河 · 破潼关入长安称帝",
+      "date_range": [
+        "0880-08-01",
+        "0881-01-16"
+      ],
+      "stage_key": "S4_EMPEROR",
+      "color": "#F6C226",
+      "style": "imperial_spearhead",
+      "summary": "六十万大军席卷中原，洛阳望风而降，正面强攻与禁谷迂回双箭头夹击攻破潼关，入长安含元殿即位建元大齐。",
+      "city_sequence": [
+        "SANJIANGKOU",
+        "CHENZHOU",
+        "BIAN",
+        "LUOYANG",
+        "TONGGUAN",
+        "CHANGAN"
+      ],
+      "crossings": [
+        {
+          "river": "潼关天险",
+          "node": "TONGGUAN",
+          "coord": [
+            34.54,
+            110.29
+          ],
+          "method": "禁谷迂回夹击破关"
+        }
+      ],
+      "waypoints": [
+        [
+          32.95,
+          117.18
+        ],
+        [
+          33.73,
+          114.88
+        ],
+        [
+          34.8,
+          114.31
+        ],
+        [
+          34.67,
+          112.45
+        ],
+        [
+          34.6,
+          111.2
+        ],
+        [
+          34.54,
+          110.29
+        ],
+        [
+          34.51,
+          109.62
+        ],
+        [
+          34.27,
+          108.95
+        ]
+      ],
+      "distance_km": 857.9
+    },
+    {
+      "route_id": "R05_RETREAT_TO_LANGHUGU",
+      "name": "第五阶段：撤出关中 · 陈州苦战与狼虎谷终局",
+      "date_range": [
+        "0883-04-10",
+        "0884-07-13"
+      ],
+      "stage_key": "S5_LANGHUGU",
+      "color": "#8E2430",
+      "style": "broken_retreat",
+      "summary": "梁田坡败于李克用鸦儿军后东撤河南，围陈州三百日无果；王满渡遭半渡而击溃散，东奔泰山狼虎谷悲壮落幕。",
+      "city_sequence": [
+        "CHANGAN",
+        "LIANGTIANPO",
+        "TONGGUAN",
+        "LUOYANG",
+        "CHENZHOU",
+        "WANGMANDU",
+        "LANGHUGU"
+      ],
+      "crossings": [
+        {
+          "river": "黄河故道",
+          "node": "WANGMANDU",
+          "coord": [
+            34.86,
+            114.03
+          ],
+          "method": "半渡受阻东撤山东"
+        }
+      ],
+      "waypoints": [
+        [
+          34.27,
+          108.95
+        ],
+        [
+          34.51,
+          109.62
+        ],
+        [
+          34.54,
+          110.29
+        ],
+        [
+          34.67,
+          112.45
+        ],
+        [
+          33.73,
+          114.88
+        ],
+        [
+          34.86,
+          114.03
+        ],
+        [
+          35.15,
+          115.38
+        ],
+        [
+          36.15,
+          117.52
+        ]
+      ],
+      "distance_km": 1071.5
+    }
+  ],
+  "timeline": [
+    {
+      "event_id": "T01",
+      "date": "0874-11-15",
+      "date_precision": "month",
+      "era_title": "乾符元年冬 · 落第赋菊",
+      "camera": "portrait_pip",
+      "focus_city": "QUJIANG",
+      "route_id": null,
+      "captures": [],
+      "huangchao_stage": "S1_SCHOLAR",
+      "sprite_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "portrait_mode": "full_panel",
+      "headline": "不第后赋菊：他年我若为青帝，报与桃花一处开",
+      "subtitle": "屡试不第的曹州士子黄巢立于长安曲江秋风中，掷笔碎榜，埋下倾覆大唐的火种。",
+      "day_offset": 0,
+      "transitions": [],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T02",
+      "date": "0875-06-10",
+      "date_precision": "day_approx",
+      "era_title": "乾符二年五月 · 冤句起兵",
+      "camera": "macro",
+      "focus_city": "YUANQU",
+      "route_id": "R01_SHANDONG_TO_HUAI",
+      "captures": [
+        [
+          "YUANQU",
+          "QI"
+        ],
+        [
+          "CHANGYUAN",
+          "QI"
+        ]
+      ],
+      "huangchao_stage": "S2_REBEL",
+      "sprite_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "散家财聚众数千，冤句盐枭拔剑起义",
+      "subtitle": "关东旱蝗大饥，黄巢在曹州冤句树起黑底赤心义旗，响应王仙芝转战中原。",
+      "day_offset": 207,
+      "transitions": [
+        {
+          "city_id": "YUANQU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CHANGYUAN",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "QI",
+        "CHANGYUAN": "QI",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T03",
+      "date": "0876-12-20",
+      "date_precision": "month",
+      "era_title": "乾符三年冬 · 蕲州分军",
+      "camera": "micro",
+      "focus_city": "QIZHOU",
+      "route_id": "R01_SHANDONG_TO_HUAI",
+      "captures": [
+        [
+          "BIAN",
+          "QI"
+        ],
+        [
+          "CHENZHOU",
+          "QI"
+        ],
+        [
+          "CAIZHOU",
+          "QI"
+        ],
+        [
+          "QIZHOU",
+          "QI"
+        ]
+      ],
+      "huangchao_stage": "S2_REBEL",
+      "sprite_frames": [
+        1,
+        2
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "怒斥招安：王仙芝欲降唐廷，黄巢痛殴仙芝分军独立",
+      "subtitle": "当王仙芝动摇欲受朝廷官职时，黄巢拒不妥协，率部北上独立转战，性格决绝初现。",
+      "day_offset": 766,
+      "transitions": [
+        {
+          "city_id": "BIAN",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CHENZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CAIZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "QIZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "QI",
+        "CHANGYUAN": "QI",
+        "BIAN": "QI",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "QI",
+        "CAIZHOU": "QI",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "QI",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T04",
+      "date": "0878-02-18",
+      "date_precision": "day",
+      "era_title": "乾符五年正月 · 冲天大将军",
+      "camera": "micro",
+      "focus_city": "HUANGMEI",
+      "route_id": "R01_SHANDONG_TO_HUAI",
+      "captures": [
+        [
+          "HUANGMEI",
+          "QI"
+        ],
+        [
+          "YUANQU",
+          "TANG"
+        ],
+        [
+          "CHANGYUAN",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S3_CHONGTIAN",
+      "sprite_frames": [
+        0,
+        1
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "王仙芝黄梅战死，黄巢接掌全军自号“冲天大将军”",
+      "subtitle": "尚让率余部归附，众推黄巢为黄王，建元王霸，身披玄铁明光铠开启万里转战。",
+      "day_offset": 1191,
+      "transitions": [
+        {
+          "city_id": "HUANGMEI",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "YUANQU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CHANGYUAN",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "QI",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "QI",
+        "CAIZHOU": "QI",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "QI",
+        "HUANGMEI": "QI",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T05",
+      "date": "0878-08-15",
+      "date_precision": "month",
+      "era_title": "乾符五年秋 · 刊山开道入闽",
+      "camera": "macro",
+      "focus_city": "XIANXIA_PASS",
+      "route_id": "R02_DETOUR_TO_LINGNAN",
+      "captures": [
+        [
+          "CAISHI_FERRY",
+          "QI"
+        ],
+        [
+          "XUANZHOU",
+          "QI"
+        ],
+        [
+          "QUZHOU",
+          "QI"
+        ],
+        [
+          "XIANXIA_PASS",
+          "QI"
+        ],
+        [
+          "JIANZHOU",
+          "QI"
+        ],
+        [
+          "BIAN",
+          "TANG"
+        ],
+        [
+          "CHENZHOU",
+          "TANG"
+        ],
+        [
+          "CAIZHOU",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S3_CHONGTIAN",
+      "sprite_frames": [
+        1,
+        2
+      ],
+      "portrait_mode": "map_leader",
+      "headline": "避实击虚！南渡长江，刊山开道七百里越仙霞岭",
+      "subtitle": "在浙西遭唐军阻击后，黄巢果断放弃硬拼，劈山开路直插福建腹地。",
+      "day_offset": 1369,
+      "transitions": [
+        {
+          "city_id": "CAISHI_FERRY",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "XUANZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "QUZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "XIANXIA_PASS",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "JIANZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "BIAN",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CHENZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CAIZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "QI",
+        "HUANGMEI": "QI",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "QI",
+        "XUANZHOU": "QI",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "QI",
+        "XIANXIA_PASS": "QI",
+        "JIANZHOU": "QI",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T06",
+      "date": "0878-12-10",
+      "date_precision": "month",
+      "era_title": "乾符五年十二月 · 攻克福州",
+      "camera": "macro",
+      "focus_city": "FUZHOU",
+      "route_id": "R02_DETOUR_TO_LINGNAN",
+      "captures": [
+        [
+          "FUZHOU",
+          "QI"
+        ],
+        [
+          "CHAOZHOU",
+          "QI"
+        ],
+        [
+          "QIZHOU",
+          "TANG"
+        ],
+        [
+          "HUANGMEI",
+          "TANG"
+        ],
+        [
+          "CAISHI_FERRY",
+          "TANG"
+        ],
+        [
+          "XUANZHOU",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S3_CHONGTIAN",
+      "sprite_frames": [
+        2,
+        3
+      ],
+      "portrait_mode": "map_leader",
+      "headline": "兵锋抵海：破福州城，沿东南沿海长驱南下",
+      "subtitle": "唐廷误判义军已远遁蛮荒，殊不知黄巢正在完成一场史无前例的战略大迂回。",
+      "day_offset": 1486,
+      "transitions": [
+        {
+          "city_id": "FUZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CHAOZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "QIZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "HUANGMEI",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CAISHI_FERRY",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "XUANZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "QI",
+        "XIANXIA_PASS": "QI",
+        "JIANZHOU": "QI",
+        "FUZHOU": "QI",
+        "CHAOZHOU": "QI",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T07",
+      "date": "0879-09-22",
+      "date_precision": "day",
+      "era_title": "乾符六年九月 · 破广州控南海",
+      "camera": "micro",
+      "focus_city": "GUANGZHOU",
+      "route_id": "R02_DETOUR_TO_LINGNAN",
+      "captures": [
+        [
+          "GUANGZHOU",
+          "QI"
+        ],
+        [
+          "QUZHOU",
+          "TANG"
+        ],
+        [
+          "XIANXIA_PASS",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S3_CHONGTIAN",
+      "sprite_frames": [
+        3,
+        0
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "一举攻克岭南首府广州，切断唐廷海外财赋命脉",
+      "subtitle": "求任天平节度使遭拒后，黄巢挥师急袭攻陷广州，大军休整蓄势。",
+      "day_offset": 1772,
+      "transitions": [
+        {
+          "city_id": "GUANGZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "QUZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "XIANXIA_PASS",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "QI",
+        "FUZHOU": "QI",
+        "CHAOZHOU": "QI",
+        "GUANGZHOU": "QI",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T08",
+      "date": "0879-10-25",
+      "date_precision": "month",
+      "era_title": "乾符六年十月 · 灵渠编筏北伐",
+      "camera": "macro",
+      "focus_city": "LINGQU_PASS",
+      "route_id": "R03_NORTHERN_EXPEDITION",
+      "captures": [
+        [
+          "GUIZHOU",
+          "QI"
+        ],
+        [
+          "LINGQU_PASS",
+          "QI"
+        ],
+        [
+          "TANZHOU",
+          "QI"
+        ],
+        [
+          "JIANGLING",
+          "QI"
+        ],
+        [
+          "JIANZHOU",
+          "TANG"
+        ],
+        [
+          "FUZHOU",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S3_CHONGTIAN",
+      "sprite_frames": [
+        1,
+        2,
+        3
+      ],
+      "portrait_mode": "map_leader",
+      "headline": "发布《北伐檄文》！经桂州灵渠编大筏顺湘江横扫荆湖",
+      "subtitle": "岭南疫起，黄巢果断挥师北指中原，一日破潭州（长沙），号称五十万众。",
+      "day_offset": 1805,
+      "transitions": [
+        {
+          "city_id": "GUIZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "LINGQU_PASS",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "TANZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "JIANGLING",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "JIANZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "FUZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "QI",
+        "GUANGZHOU": "QI",
+        "GUIZHOU": "QI",
+        "LINGQU_PASS": "QI",
+        "TANZHOU": "QI",
+        "JIANGLING": "QI",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T09",
+      "date": "0880-07-15",
+      "date_precision": "day_approx",
+      "era_title": "广明元年七月 · 渡江饮马淮水",
+      "camera": "macro",
+      "focus_city": "SANJIANGKOU",
+      "route_id": "R03_NORTHERN_EXPEDITION",
+      "captures": [
+        [
+          "EZHOU",
+          "QI"
+        ],
+        [
+          "CAISHI_FERRY",
+          "QI"
+        ],
+        [
+          "SANJIANGKOU",
+          "QI"
+        ],
+        [
+          "CHENZHOU",
+          "QI"
+        ],
+        [
+          "CAIZHOU",
+          "QI"
+        ],
+        [
+          "BIAN",
+          "QI"
+        ],
+        [
+          "CHAOZHOU",
+          "TANG"
+        ],
+        [
+          "GUANGZHOU",
+          "TANG"
+        ],
+        [
+          "GUIZHOU",
+          "TANG"
+        ],
+        [
+          "LINGQU_PASS",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S3_CHONGTIAN",
+      "sprite_frames": [
+        2,
+        3
+      ],
+      "portrait_mode": "map_leader",
+      "headline": "采石矶北渡长江、三江口跨淮水，六十万大军直扑两京",
+      "subtitle": "万里大迂回闭环完成，淮南高骈闭壁不敢出战，关东藩镇望风瓦解。",
+      "day_offset": 2069,
+      "transitions": [
+        {
+          "city_id": "EZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CAISHI_FERRY",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "SANJIANGKOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CHENZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CAIZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "BIAN",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CHAOZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "GUANGZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "GUIZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "LINGQU_PASS",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "QI",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "QI",
+        "CAIZHOU": "QI",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "QI",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "QI",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "QI",
+        "JIANGLING": "QI",
+        "EZHOU": "QI"
+      }
+    },
+    {
+      "event_id": "T10",
+      "date": "0880-11-17",
+      "date_precision": "day",
+      "era_title": "广明元年十一月 · 洛阳迎降",
+      "camera": "macro",
+      "focus_city": "LUOYANG",
+      "route_id": "R04_CAPTURE_TWO_CAPITALS",
+      "captures": [
+        [
+          "LUOYANG",
+          "QI"
+        ],
+        [
+          "TANZHOU",
+          "TANG"
+        ],
+        [
+          "JIANGLING",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S3_CHONGTIAN",
+      "sprite_frames": [
+        0,
+        1
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "东都洛阳不战而下，留守刘允章率百官出城迎降",
+      "subtitle": "齐军纪律严明、秋毫无犯，兵锋直指关中最后一道天险——潼关。",
+      "day_offset": 2194,
+      "transitions": [
+        {
+          "city_id": "LUOYANG",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "TANZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "JIANGLING",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "QI",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "QI",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "QI",
+        "CAIZHOU": "QI",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "QI",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "QI",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "QI"
+      }
+    },
+    {
+      "event_id": "T11",
+      "date": "0880-12-03",
+      "date_precision": "day",
+      "era_title": "广明元年十二月 · 攻破潼关",
+      "camera": "micro",
+      "focus_city": "TONGGUAN",
+      "route_id": "R04_CAPTURE_TWO_CAPITALS",
+      "captures": [
+        [
+          "TONGGUAN",
+          "QI"
+        ]
+      ],
+      "huangchao_stage": "S3_CHONGTIAN",
+      "sprite_frames": [
+        2,
+        3
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "双路夹击破潼关！唐僖宗仓皇逃往蜀地成都",
+      "subtitle": "尚让正面强攻、林言绕禁谷奇袭，天险潼关一日而破。",
+      "day_offset": 2210,
+      "transitions": [
+        {
+          "city_id": "TONGGUAN",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "QI",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "QI",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "QI",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "QI",
+        "CAIZHOU": "QI",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "QI",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "QI",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "QI"
+      }
+    },
+    {
+      "event_id": "T12",
+      "date": "0881-01-16",
+      "date_precision": "day",
+      "era_title": "金统元年正月 · 含元殿称帝",
+      "camera": "ai_clip",
+      "focus_city": "CHANGAN",
+      "route_id": "R04_CAPTURE_TWO_CAPITALS",
+      "captures": [
+        [
+          "CHANGAN",
+          "QI"
+        ],
+        [
+          "TONGZHOU",
+          "QI"
+        ],
+        [
+          "LIANGTIANPO",
+          "QI"
+        ]
+      ],
+      "huangchao_stage": "S4_EMPEROR",
+      "sprite_frames": [
+        0,
+        1,
+        2
+      ],
+      "portrait_mode": "full_panel",
+      "headline": "金冕龙袍登含元殿！建国号“大齐”，年号金统",
+      "subtitle": "昔日长安落第举子终登九五，树起明黄赤龙大齐帅旗。",
+      "day_offset": 2254,
+      "transitions": [
+        {
+          "city_id": "CHANGAN",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "TONGZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "LIANGTIANPO",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "QI",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "QI",
+        "TONGZHOU": "QI",
+        "LIANGTIANPO": "QI",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "QI",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "QI",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "QI",
+        "CAIZHOU": "QI",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "QI",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "QI",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "QI"
+      }
+    },
+    {
+      "event_id": "T13",
+      "date": "0882-09-15",
+      "date_precision": "month",
+      "era_title": "中和二年秋 · 朱温叛降与孤城",
+      "camera": "macro",
+      "focus_city": "TONGZHOU",
+      "route_id": "R04_CAPTURE_TWO_CAPITALS",
+      "captures": [
+        [
+          "TONGZHOU",
+          "TANG"
+        ],
+        [
+          "LUOYANG",
+          "TANG"
+        ],
+        [
+          "BIAN",
+          "TANG"
+        ],
+        [
+          "CHENZHOU",
+          "TANG"
+        ],
+        [
+          "CAIZHOU",
+          "TANG"
+        ],
+        [
+          "EZHOU",
+          "TANG"
+        ],
+        [
+          "CAISHI_FERRY",
+          "TANG"
+        ],
+        [
+          "SANJIANGKOU",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S4_EMPEROR",
+      "sprite_frames": [
+        3
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "大将朱温据同州降唐，长安粮道断绝陷入四面合围",
+      "subtitle": "政令不出长安城门，大齐帝国迅速由盛转衰，孤城危机四伏。",
+      "day_offset": 2861,
+      "transitions": [
+        {
+          "city_id": "TONGZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "LUOYANG",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "BIAN",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CHENZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CAIZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "EZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CAISHI_FERRY",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "SANJIANGKOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "QI",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "QI",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "QI",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T14",
+      "date": "0883-04-10",
+      "date_precision": "day",
+      "era_title": "中和三年四月 · 梁田坡败绩",
+      "camera": "micro",
+      "focus_city": "LIANGTIANPO",
+      "route_id": "R05_RETREAT_TO_LANGHUGU",
+      "captures": [
+        [
+          "CHANGAN",
+          "TANG"
+        ],
+        [
+          "TONGGUAN",
+          "TANG"
+        ],
+        [
+          "LIANGTIANPO",
+          "TANG"
+        ],
+        [
+          "CHENZHOU",
+          "QI"
+        ],
+        [
+          "CAIZHOU",
+          "QI"
+        ]
+      ],
+      "huangchao_stage": "S5_LANGHUGU",
+      "sprite_frames": [
+        0
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "二十八岁李克用率沙陀“鸦儿军”入关，黄巢败退撤出长安",
+      "subtitle": "黑衣骑兵突袭梁田坡，黄巢焚宫室东出潼关，帝业倾颓。",
+      "day_offset": 3068,
+      "transitions": [
+        {
+          "city_id": "CHANGAN",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "TONGGUAN",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "LIANGTIANPO",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CHENZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        },
+        {
+          "city_id": "CAIZHOU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "QI",
+        "CAIZHOU": "QI",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T15",
+      "date": "0884-05-18",
+      "date_precision": "day",
+      "era_title": "中和四年五月 · 王满渡溃败",
+      "camera": "micro",
+      "focus_city": "WANGMANDU",
+      "route_id": "R05_RETREAT_TO_LANGHUGU",
+      "captures": [
+        [
+          "CHENZHOU",
+          "TANG"
+        ],
+        [
+          "CAIZHOU",
+          "TANG"
+        ],
+        [
+          "LANGHUGU",
+          "QI"
+        ]
+      ],
+      "huangchao_stage": "S5_LANGHUGU",
+      "sprite_frames": [
+        0,
+        1
+      ],
+      "portrait_mode": "pip_corner",
+      "headline": "围陈州三百日无果，王满渡遭李克用半渡而击全军瓦解",
+      "subtitle": "尚让等核心大将相继降唐，黄巢仅率千余残骑向泰山突围。",
+      "day_offset": 3472,
+      "transitions": [
+        {
+          "city_id": "CHENZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "CAIZHOU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        },
+        {
+          "city_id": "LANGHUGU",
+          "from_faction": "TANG",
+          "to_faction": "QI"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "QI",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    },
+    {
+      "event_id": "T16",
+      "date": "0884-07-13",
+      "date_precision": "day",
+      "era_title": "中和四年六月 · 狼虎谷落幕",
+      "camera": "portrait_pip",
+      "focus_city": "LANGHUGU",
+      "route_id": "R05_RETREAT_TO_LANGHUGU",
+      "captures": [
+        [
+          "LANGHUGU",
+          "TANG"
+        ]
+      ],
+      "huangchao_stage": "S5_LANGHUGU",
+      "sprite_frames": [
+        1,
+        2,
+        3
+      ],
+      "portrait_mode": "full_panel",
+      "headline": "泰山狼虎谷横剑自刎，明黄大齐帅旗折断",
+      "subtitle": "历经十年万里转战，黄巢于泰山深谷悲壮自刎，大唐帝国亦随之名存实亡。",
+      "day_offset": 3528,
+      "transitions": [
+        {
+          "city_id": "LANGHUGU",
+          "from_faction": "QI",
+          "to_faction": "TANG"
+        }
+      ],
+      "city_control": {
+        "CHANGAN": "TANG",
+        "QUJIANG": "TANG",
+        "TONGGUAN": "TANG",
+        "TONGZHOU": "TANG",
+        "LIANGTIANPO": "TANG",
+        "TAIYUAN": "TANG",
+        "LUOYANG": "TANG",
+        "YUANQU": "TANG",
+        "CHANGYUAN": "TANG",
+        "BIAN": "TANG",
+        "WANGMANDU": "TANG",
+        "CHENZHOU": "TANG",
+        "CAIZHOU": "TANG",
+        "LANGHUGU": "TANG",
+        "QIZHOU": "TANG",
+        "HUANGMEI": "TANG",
+        "YANGZHOU": "TANG",
+        "CAISHI_FERRY": "TANG",
+        "XUANZHOU": "TANG",
+        "SANJIANGKOU": "TANG",
+        "QUZHOU": "TANG",
+        "XIANXIA_PASS": "TANG",
+        "JIANZHOU": "TANG",
+        "FUZHOU": "TANG",
+        "CHAOZHOU": "TANG",
+        "GUANGZHOU": "TANG",
+        "GUIZHOU": "TANG",
+        "LINGQU_PASS": "TANG",
+        "TANZHOU": "TANG",
+        "JIANGLING": "TANG",
+        "EZHOU": "TANG"
+      }
+    }
+  ]
+}

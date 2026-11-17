@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+*.flac
+.DS_Store
+Thumbs.db
+scratch/
+tmp/
