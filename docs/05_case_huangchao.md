@@ -35,11 +35,11 @@
 
 1. **全幕 18 幕 × 3 点冒烟**：一眼捕获了 `_path_pos` 二元组传参 `IndexError` 与 `('QI', 'militia', True)` 缺失 `KeyError`。
 2. **PNG 目视抽检**：实际打开样张发现并修复了“行军标签被高骈/黄巢帅旗切半”“王满渡箭头盖住西浮桥混战”“初版上下黑条遮住海南/辽东湾”以及“长江以南过平、左下角东南亚过空”的问题。
-3. **MP4 响度微调**：首遍母带 `-13.10 LUFS` 封装后实测成了 `-13.2 LUFS`；只改音频增益（`base_curve * 1.17`）重算 WAV 后用 `-c:v copy` 秒级重封装，终版实测 **`-13.0 LUFS / TP -0.9 dBFS`**（`24.06 MB`），省掉重渲视频时间。
+3. **MP4 响度微调**：首遍母带 `-13.10 LUFS` 封装后实测成了 `-13.2 LUFS`；只改音频增益（`base_curve * 1.17`）重算 WAV 后用 `-c:v copy` 秒级重封装，终版实测 **`-13.0 LUFS / TP -0.9 dBFS`**（`24.59 MB`），省掉重渲视频时间。
 
-### 5. 高精度海岸线、台琼离岛、江南丘陵与 16:9 紧凑缩放升级（终版）
+### 5. 东亚全海岸线、朝鲜半岛/日本列岛、江南丘陵与 16:9 紧凑缩放升级（终版）
 
-- **标准海岸线 + 离岛扣海成陆（`data_geo.py` + `hc_terrain.py`）**：地理包围盒扩至 `LAT_BOUNDS=(18.0, 41.2)`、`LON_BOUNDS=(102.0, 123.5)`，新增 `ISLAND_LANDMARKS`（琼州、振州、流求(台湾)、澎湖）；替换 `SEA_POLYS` 为高精度辽东湾—渤海—山东半岛—长江口—浙闽—珠江口—雷州半岛—北部湾岸线，并将台湾岛、海南岛、澎湖、舟山等 `ISLAND_POLYS` 从 `sea_mask` 扣海成陆，补充台湾中央山脉与海南五指山主脊，校验 `31` 座城池 `0` 座落海。
+- **完整东亚岸线与离岛扣海成陆（`data_geo.py` + `hc_terrain.py`）**：地理包围盒扩至 `LAT_BOUNDS=(18.0, 41.2)`、`LON_BOUNDS=(102.0, 123.5)`，新增 `ISLAND_LANDMARKS`（琼州、振州、流求(台湾)、澎湖）；升级 `SEA_POLYS` 为高精度辽东湾—渤海—山东—长江口—浙闽—珠江口—雷州半岛—北部湾岸线，并补全**朝鲜半岛**（图们江—日本海—釜山—西南海岸—西朝鲜湾）；在 `ISLAND_POLYS` 从 `sea_mask` 扣海成陆做出台湾、海南、澎湖、舟山、济州岛、对马/五岛、**日本九州/四国/本州中西部（含濑户内海）及琉球弧岛**，补充台湾中央山脉、海南五指山、朝鲜长白/太白与日本山地主脊，补全三方 `"TANG"` 背景锚点，校验 `31` 座内地城池 `0` 座落海。
 - **江南—两广丘陵三级地貌与左下角防留白**：补充江南/浙闽/两广丘陵基底与雪峰/罗霄/黄山/戴云/十万大山/云开山脊、赣江与红河水系，叠加双尺度 `hill_knolls` 起伏肌理；使用 `fit_aspect_bounds(..., x_stretch=1.22)` 放大核心战区并裁去西侧空旷东南亚；顶部改左置圆角标题底框 + `68px` 底条完整露出辽东湾与海南岛。
 
 ---
@@ -54,6 +54,6 @@
 | [`04_T13_zhuwen_4frame.jpg`](../reference/huangchao/frames/04_T13_zhuwen_4frame.jpg) | `T13` 剧场 | 128×128 朱温「献印降唐」帧与长安孤城黄巢对峙、中央红线裂痕与姿态字幕 |
 | [`05_T14_LK_likeyong_4frame.jpg`](../reference/huangchao/frames/05_T14_LK_likeyong_4frame.jpg) | `T14_LK` 剧场 | 128×128 李克用「独眼挽弓」帧 + 底层沙陀黑骑顺雁门南下箭矢冲击关中 |
 | [`06_B_WMD_bridges.jpg`](../reference/huangchao/frames/06_B_WMD_bridges.jpg) | `B_WMD` 沙盘 | 黑红双箭头止步东西浮桥北岸入口，桥南尚让/黄巢阵亡溃退清晰可见 |
-| [`07_T15_REV_reclaimed.jpg`](../reference/huangchao/frames/07_T15_REV_reclaimed.jpg) | `T15_REV` 宏观 | 终版全国（含海南、台湾）干净翻红，仅余泰山狼虎谷一处孤蓝，李克用朱温两路东追 |
-| [`08_T06_coast_islands_hills.jpg`](../reference/huangchao/frames/08_T06_coast_islands_hills.jpg) | `T06` 宏观 | 高精度海岸线 + 台湾中央山脉/澎湖/海南五指山全貌无遮挡 + 左下角紧凑收紧 |
+| [`07_T15_REV_reclaimed.jpg`](../reference/huangchao/frames/07_T15_REV_reclaimed.jpg) | `T15_REV` 宏观 | 终版全国（含海南、台湾、朝鲜半岛、日本列岛）干净翻红，仅余泰山狼虎谷一处孤蓝，李克用朱温两路东追 |
+| [`08_T06_coast_islands_hills.jpg`](../reference/huangchao/frames/08_T06_coast_islands_hills.jpg) | `T06` 宏观 | 高精度东亚岸线 + 朝鲜/日本/琉球/台琼三维山脊全貌无遮挡 + 左下角紧凑收紧 |
 | [`09_T08_jiangnan_hills.jpg`](../reference/huangchao/frames/09_T08_jiangnan_hills.jpg) | `T08` 宏观 | 长江以南江南丘陵/浙闽丘陵/两广丘陵凹凸纹理与华北/洞庭/珠三角平原的三级地形对比 |
