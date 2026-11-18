@@ -210,6 +210,6 @@ CITIES: Dict[str, Dict] = {
 ISLAND_LANDMARKS: Dict[str, Dict] = {
     "QIONGZHOU": {"name": "琼州", "modern": "海南海口琼山", "lat": 19.98, "lon": 110.35, "note": "唐岭南道琼管经略使治所"},
     "ZHENZHOU": {"name": "振州", "modern": "海南三亚崖州", "lat": 18.38, "lon": 109.20, "note": "唐代海南岛南端州治"},
-    "LIUQIU": {"name": "流求(台湾)", "modern": "台湾台南嘉南", "lat": 23.25, "lon": 120.38, "note": "东南海疆重镇"},
+    "LIUQIU": {"name": "流求", "modern": "台湾台南嘉南", "lat": 23.25, "lon": 120.38, "note": "隋唐文献对台湾一带之称谓"},
     "PENGHU": {"name": "澎湖", "modern": "台湾澎湖列岛", "lat": 23.57, "lon": 119.58, "note": "台海津要"},
 }

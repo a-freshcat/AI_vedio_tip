@@ -20,7 +20,7 @@
 | 城池初始阵营（修正梁田坡为 `TANG`）与 `ISLAND_LANDMARKS` | `src/data_geo.py` |
 | 流动作战逐幕占领与朝廷收复状态机 | `src/data_timeline.py` |
 | 史实数据完整性编译与里程计算 | `src/build.py::validate_and_compile` |
-| 高精度东亚海岸线（含朝鲜半岛）+ 台琼/日韩/琉球 `ISLAND_POLYS` 扣海 + 南方丘陵 `hill_knolls` + `x_stretch` | `src/hc_terrain.py::build_relief_terrain`, `fit_aspect_bounds`, `compute_smoothed_faction_scores` |
+| 高精度东亚海岸线（含新罗/朝鲜半岛）+ 唐代古称地图标注（流求/倭国/琼州/剑南巴蜀/吐蕃）+ `hill_knolls` + `x_stretch` | `src/hc_terrain.py::build_relief_terrain`, `fit_aspect_bounds`, `MOUNTAIN_DISPLAY_LABELS` |
 | 18 幕导演脚本（敌我双阵营算子与帅旗）+ 三段前锋场预计算 | `src/hc_campaign_renderer.py::HuangChaoCampaignEngine.__init__` (`act_specs`, `act_scores`, `macro_units`) |
 | 96 档超平滑疆界过渡 + 箭头标签防遮挡绘制 | `src/hc_campaign_renderer.py::HuangChaoCampaignEngine._draw_macro` |
 | 朱温 4 帧叛降 / 李克用 4 帧入关 / 曲江 / 称帝 / 狼虎谷剧场 | `src/hc_campaign_renderer.py::HuangChaoCampaignEngine._draw_cutscene` |
@@ -40,7 +40,7 @@
 - [`frames/04_T13_zhuwen_4frame.jpg`](frames/04_T13_zhuwen_4frame.jpg)：`T13` 朱温「献印降唐」与孤城黄巢对峙
 - [`frames/05_T14_LK_likeyong_4frame.jpg`](frames/05_T14_LK_likeyong_4frame.jpg)：`T14_LK` 李克用「独眼挽弓」与沙陀黑骑南下关中
 - [`frames/06_B_WMD_bridges.jpg`](frames/06_B_WMD_bridges.jpg)：`B_WMD` 王满渡（李克用/朱温北岸桥头箭矢合围尚让、黄巢）
-- [`frames/07_T15_REV_reclaimed.jpg`](frames/07_T15_REV_reclaimed.jpg)：`T15_REV` 全国收复翻红仅余泰山孤蓝点（含台琼及朝鲜半岛/日本海疆）
-- [`frames/08_T06_coast_islands_hills.jpg`](frames/08_T06_coast_islands_hills.jpg)：`T06` 升级东亚全岸线 + 朝鲜半岛/日本列岛/琉球/台琼完整露出 + 左下角收紧
+- [`frames/07_T15_REV_reclaimed.jpg`](frames/07_T15_REV_reclaimed.jpg)：`T15_REV` 全国收复翻红仅余泰山孤蓝点（采用唐代流求/新罗/倭国/琼州古地名标注）
+- [`frames/08_T06_coast_islands_hills.jpg`](frames/08_T06_coast_islands_hills.jpg)：`T06` 升级东亚全岸线 + 唐代当世地名 + 左下角收紧
 - [`frames/09_T08_jiangnan_hills.jpg`](frames/09_T08_jiangnan_hills.jpg)：`T08` 长江以南江南/浙闽/两广丘陵与东亚海疆完整地形对比
 - [`audio/enog_huangchao_beat_map.json`](audio/enog_huangchao_beat_map.json) & [`audio/enog_huangchao_mix_timeline.png`](audio/enog_huangchao_mix_timeline.png)：18 幕时间真源与混音四合一诊断图
