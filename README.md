@@ -18,6 +18,7 @@
 | [docs/05_case_huangchao.md](docs/05_case_huangchao.md) | 最新验收基准《唐末黄巢起义》复盘与 7 张实机抽帧剖析 |
 | [docs/06_acceptance_checklist.md](docs/06_acceptance_checklist.md) | G1–G6 逐项打勾验收单 |
 | [docs/07_prompt_template.md](docs/07_prompt_template.md) | 开新项目 / 审查重置半成品的即拷即用提示词模板 |
+| [docs/08_case_tang_end.md](docs/08_case_tang_end.md) | 《大唐的终结》第二版复盘：剧情演出、战斗音画同步与局部换稿验收 |
 | [tools/qa_tools.py](tools/qa_tools.py) | 自动化校验脚本（控制权快照排查 / 全幕冒烟 / `ebur128` 响度 / 成片抽帧） |
 | [reference/huangchao/](reference/huangchao/README.md) | **首选主参考**：完整 14 个脚本 + 数据 + 节拍/混音图 + 7 张抽帧样本 |
 | [reference/anshi/](reference/anshi/README.md) | **扩展场景参考**：18 个脚本 + 数据 + 外部短片嵌合 / 多曲拼接 / 河心岛浮桥 |
