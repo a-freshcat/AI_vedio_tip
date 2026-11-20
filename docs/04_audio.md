@@ -65,9 +65,22 @@
   - 做法：把母带 WAV 控制在 **`-13.00 ~ -12.90 LUFS`**，封装后必须再对最终 MP4 跑 `ffmpeg ebur128` 实测（黄巢终版实测：母带 `-13.00 LUFS / peak 0.8900`，成片 **`I = -13.0 LUFS / TP = -0.9 dBFS`**）。
   - **省时技巧**：如果只是响度微偏 `0.1~0.3 dB`，改完 `hc_audio_*.py` 跑 3 秒生成新 `master_mix.wav` 后，直接用已编码的无声视频 `-c:v copy` 重新封装（1 秒完成），**不要重跑 8 分钟的视频渲染**！
 
+### AAC 真峰值过冲：限幅阈值要压到 0.66，不能只留 1 dB
+
+MP3 源文件本身可能已削波，AAC 编码的 MDCT 还会再产生过冲，两级叠加会让「母带合格、成片超标」。《陈桥》实测：源曲 `Peak = +0.8 dBFS`（源文件导出时已削顶），经下述链路后成片 `TP = −1.3 ~ −1.8 dBFS`。
+
+```bash
+# 前瞻限幅：limit 取 0.66（约 −3.6 dB），不是常见的 0.9
+alimiter=level_in=<增益>:level_out=1:limit=0.66:attack=6:release=80:asc=true:level=disabled
+```
+
+- **为什么是 0.66**：`0.9` 只留约 1 dB 余量，实测不足以吸收 MDCT 过冲；压到 `0.66` 才让成片稳定落在 `TP ≤ −1.0 dBFS`。
+- **必须做编码后探测**：先渲一小段 AAC（探测文件），实测其 `ebur128`，再据此回算整片增益。只看母带 WAV 会误判。
+- **源曲有削波时**：不要试图「修复」源文件，只在下游做预降增益 + 限幅；记录源文件实测值，交付时说明。
+
 ---
 
-## 五、必出双诊断产物（G5 验收依据）
+## 六、必出双诊断产物（G5 验收依据）
 
 1. 终端打印每幕 `t0–t1`、`SFX dB`、`BGM dB`、`Mix dB` 与 `SFX − BGM` 差值表；
 2. 保存四合一诊断图 `*_mix_timeline.png`（压限后 BGM 波形、SFX 总轨、`duck_gain` 轨迹、8 kHz 内混音频谱，叠画红线分幕边界），对应示例见 `reference/huangchao/audio/enog_huangchao_mix_timeline.png` 与 `reference/anshi/audio/`。
